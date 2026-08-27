@@ -19,7 +19,15 @@ public class Rock {
         player = 2;
     }
     int computer = random.nextInt(0 , 3);
-    System.out.printf("%d" , computer);
+    if (computer == 0){
+        System.out.printf("Computer Chose Rock");
+    }
+    else if (computer == 1){
+        System.out.printf("Computer Chose Paper");
+    }
+    else {
+        System.out.printf("Computer Chose Scissors");
+    }
     System.out.printf(" %n");
     int answer = (( player - computer + 3) % 3);
     if (answer == 0 ){
