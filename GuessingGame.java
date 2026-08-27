@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-public class TestScanner{
+public class GuessingGame{
     static Scanner scanner = new Scanner(System.in);
     static void guessingGame(){
         int difficulty;
